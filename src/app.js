@@ -9,7 +9,7 @@ const indexRoutes = require('./routes/index');
 
 //settins
 app.use(compression());
-app.set("port",80);
+app.set("port",8080);
 //app.set("port",process.env.PORT || 443);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine','ejs');
